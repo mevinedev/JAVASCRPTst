@@ -38,4 +38,3 @@ things.push(desktop);
 things.push(monitor);
 
 /*adds desktop and monitor to our variable things. */
-
