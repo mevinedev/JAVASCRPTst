@@ -13,6 +13,7 @@ if (foo=13){
 else {
     console.log('goodbye');
 }
+
 /*
 var lion = {
     name: 'simba',
@@ -33,3 +34,8 @@ var lion = {
 
 var things = ['laptop', 'tvset','computer'];
 things.length;
+things.push(desktop);
+things.push(monitor);
+
+/*adds desktop and monitor to our variable things. */
+
