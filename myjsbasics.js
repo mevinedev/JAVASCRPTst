@@ -36,7 +36,6 @@ var things = ['laptop', 'tvset','computer'];
 things.length;
 things.push('desktop');
 things.push('monitor');
-
 /*adds desktop and monitor to our variable things. */
 
 // for loops.
@@ -52,8 +51,7 @@ for (var i = 0; i < 10; i++) {
 
   var j = 0;  
   while (j < 10) {
-    console.log('hakuna matata', j);
-  
+    console.log('hakuna matata', j);  
     j++;
   }
   
