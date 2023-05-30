@@ -5,14 +5,16 @@ food=12;
 food*12; 
 */
 
-var foo = 10;
+var sky = 10;
 
 if (foo=13){
     console.log('hello');
 }
+
 else {
     console.log('goodbye');
 }
+
 /*
 var lion = {
     name: 'simba',
@@ -27,10 +29,8 @@ var lion = {
   // bracket notation.
   // This is useful if you're accessing a property through a variable
   var prop = 'name';
-
   lion[prop];
 */
-
 
 var things = ['laptop', 'tvset','computer'];
 things.length;
@@ -45,23 +45,20 @@ things.push('monitor');
 for (var i = 0; i < 10; i++) {
     console.log('jambo', i);
   }
-  
+
   // while loops.
   // Execute while a condition is true.
   // Like a for loop, except the statements are on individual lines
 
-  var j = 0;
-  
+  var j = 0;  
   while (j < 10) {
     console.log('hakuna matata', j);
   
     j++;
   }
   
-  var a = 15;
-  
+  var a = 15;  
   // do while loops
-
   // Like a while loop, except the body executes at least once
 
   do {
